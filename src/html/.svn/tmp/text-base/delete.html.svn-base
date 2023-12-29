@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1>Deleting interactions</font></h1></center>
+
+<font color="blue">PDB</font><font color="red">e</font><font color="blue">LigView</font> allows the user to delete
+hydrogen bonds or close residues. 
+<p>
+To delete an interaction, <b>right click</b> on the interaction you want to delete and choose the <b>"delete"</b> item.
+</p>
+
+</div>
+
+</body>
+</html>

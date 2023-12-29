@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1>Water mediated hydrogen bonds</font></h1></center>
+
+<font color="blue">LeView</font> allows the user to display  possible water-mediated interactions involving the ligand or ion. By clicking on the <b>"Water Mediated"</b> menu, all the possible water-mediated hydrogen bonds are displayed (limited to four H2O). Click on one of them to display it on the diagram and click on again to hide it.
+
+
+</div>
+
+</body>
+</html>

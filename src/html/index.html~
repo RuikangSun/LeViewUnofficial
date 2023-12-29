@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1><font color="blue">LeView</font></h1></center>
+
+<h2> <font color="blue"> About this tool </font> </h2>
+<p>
+<font color="blue">LeView</font> is a program for automatically generating biomacromolecule-ligand interaction 2D-diagrams for a given PDB file. 
+</p>
+
+<p>
+First, it automatically detects biomacromolecules, ligands and metals in the PDB file. Then it generates a list of ligands and metals existing in the PDB entry. For each ligand and metal you can obtain an interactive 2D diagram. This diagram shows ligands, metals, hygrogen bonds, close residues, explicit residues and metals. 
+</p>
+
+<p>
+The user can easily manipulate the diagram by changing the cut-off distance for hydrogen bonds and close residues. Probable water-mediated hydrogen bonds can be added to the diagrams (see the section "Water mediated H bonds"). The diagram can also be manipulated by moving elements (see the section on "Moving elements") or by choosing the element colour and style (see the section on "Options"). The diagram can be exported in different formats such as PNG, PDF, SVG or EPS (see the section on "Export"). 
+<p>
+
+
+</div>
+
+</body>
+</html>

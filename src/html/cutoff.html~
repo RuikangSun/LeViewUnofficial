@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1>Changing cut-off</font></h1></center>
+
+<p><font color="blue">LeView</font> allows the user to change the cut-off distance for hydrogen bonds and close residues. The initial cut-off distance for hydrogen bonds is 3.3 A for hydrogen bonds and 4.0 A for close residues. These can be changed by sliding the corresponding cut-off bar at the bottom of the frame. 
+</p>
+
+<p>
+While you are in the "move elements" mode, the maximum cut-off distance remains fixed at the one chosen before you switched on this mode. You will need to deactivate this mode in order to increase the cut-off distance.
+</p>
+
+</div>
+
+</body>
+</html>

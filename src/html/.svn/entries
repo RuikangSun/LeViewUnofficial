@@ -1,0 +1,91 @@
+10
+
+dir
+0
+https://internal-web-1.ebi.ac.uk:8030/svn/services/internal/ligand_visualisation/LigView/html
+https://internal-web-1.ebi.ac.uk:8030/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+05bcda2c-6828-0410-b8ad-dd7059eeb206
+
+save.html
+file
+
+
+
+add
+
+waterMediated.html
+file
+
+
+
+add
+
+rotation.html
+file
+
+
+
+add
+
+moving.html
+file
+
+
+
+add
+
+delete.html
+file
+
+
+
+add
+
+cutoff.html
+file
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+about.html
+file
+
+
+
+add
+
+options.html
+file
+
+
+
+add
+

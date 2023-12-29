@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1>Options</font></h1></center>
+
+<p><font color="blue">LeView</font> offers the user a number of options.</p>
+
+
+<h2><font color="blue"> Atom labels </font></h2>
+
+
+The user can choose to display or hide the atom labels (e.g. C19). 
+
+<h2><font color="blue"> Colour scheme for atoms </font></h2>
+
+The user can choose between standard colours (e.g. red for oxygen) or plain-colour mode.
+
+<h2><font color="blue"> Colour scheme for close residues </font></h2>
+The user can choose between several colour schemes.
+<ul>
+<li>The <b>Hydro. scheme</b> represents the residue according to its hydrophobic properties: <span style="background-color: #F3B6C8;">polar residues in pink</span>, <span style="background-color: #62E753">non-polar in green</span> and <span style="background-color: #D7D7D7;">others in gray</span> </li>
+
+<li>The <b>Prop.</b> scheme represents residues depending on the standard amino acid properties. Bright colours are used for polar residues and darker colours for non-polar ones. This colour scheme is similar to the Shapely scheme that is available under the RasMol Colours menu. </li>
+
+<li>The <b>Charge scheme</b> represents residues depending on the charge. <span style="background-color: #D7D7D7;">non-polar residues gray</span>, <span style="background-color: red">acidic residues red</span>, <span style="background-color: #2278F1">basic residues blue</span> and <span style="background-color: #CC0AEE">uncharged polar residues purple</span>.</li>
+
+<li>The <b>Struct. scheme</b> represents residues depending on the secondary structure in which they are included: <span style="background-color: #F3B6C8;">Pink for helix</span>, <span style="background-color: #F2DA03;">yellow for strand</span> and white for other.</li> 
+</ul>
+
+<h2><font color="blue"> Element colours </font></h2>
+
+The user can define the colour for each element of the diagram. To do this, go to the <b>Element Colour</b> submenu and click on the element for which you want to change the colour. This will open a colour frame. 
+
+
+
+<h2><font color="blue"> Hydrogen bond display</font></h2>
+
+The user can choose between two <b>hydrogen bond styles</b>: 
+<ul>
+<li>lines: H bonds are represented by simple lines</li>
+<li>arrows: H bonds are represented by arrows from donor to acceptor.</li>
+</ul>
+
+The user can choose to display or hide the hydrogen bond distance.
+
+
+
+</div>
+
+</body>
+</html>

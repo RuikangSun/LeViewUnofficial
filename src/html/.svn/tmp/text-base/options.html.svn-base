@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1>Options</font></h1></center>
+
+<font color="blue">PDB</font><font color="red">e</font><font color="blue">LigView</font> offers the user a number of options.
+
+
+<h2><font color="blue"> Atom labels </font></h2>
+
+
+The user can choose to display or hide the atom labels (e.g. C19). 
+
+<h2><font color="blue"> Colour scheme for atoms </font></h2>
+
+The user can choose between standard colours (e.g. red for oxygen) or plain-colour mode.
+
+<h2><font color="blue"> Colour scheme for close residues </font></h2>
+The user can choose between several colour schemes.
+<p>
+The <b>Hydro. scheme</b> represents the residue according to its hydrophobic properties: polar residues in pink, non-polar in green and other in grey. 
+</p>
+<p>
+The <b>Prop.</b> scheme represents residues depending on the standard amino acid properties. Bright colours are used for polar residues and darker colours for non-polar ones. This colour scheme is similar to the Shapely scheme that is available under the RasMol Colours menu. 
+</p>
+<p>
+The <b>Charge scheme</b> represents residues depending on the charge. Non-polar residues are in grey, polar acidic (-) residues in red, polar basic (+) residues in blue and polar uncharged residues in purple. 
+</p>
+<p>
+The <b>Struct. scheme</b> represents residues depending on the secondary structure in which they are included. Pink is used for helix, yellow for strand and white for other. 
+</p>
+
+<h2><font color="blue"> Element colours </font></h2>
+
+The user can define the colour for each element of the diagram. To do this, go to the <b>Element Colour</b> submenu and click on the element for which you want to change the colour. This will open a colour frame. 
+
+
+
+<h2><font color="blue"> Hydrogen bond display</font></h2>
+
+The user can choose between two <b>hydrogen bond styles</b>: 
+<ul>
+<li>lines: H bonds are represented by simple lines</li>
+<li>arrows: H bonds are represented by arrows from donor to acceptor.</li>
+</ul>
+
+The user can choose to display or hide the hydrogen bond distance.
+
+
+
+</div>
+
+</body>
+</html>

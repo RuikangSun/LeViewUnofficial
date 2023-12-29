@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1>Moving elements</font></h1></center>
+
+<font color="blue">PDB</font><font color="red">e</font><font color="blue">LigView</font> allows the user to move all the diagram elements. To do this, click on the <b>"Move elements"</b> button at the top of the frame. 
+<p>
+While this button is pressed, you can move each diagram element by clicking on it and releasing it to a new position. In this mode, the cut-off distance for H-bonds and close residues can be decreased, but not increased. In order to increase the cut-off distance, you will need to come out of <b>"Move elements"</b> mode by clicking the <b>"cancel"</b> button; however, doing this may mean that you lose your position modifications. 
+</p>
+
+</div>
+
+</body>
+</html>

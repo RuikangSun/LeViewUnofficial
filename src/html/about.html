@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Help</title>
+</head>
+
+<body>
+<div style="width:300px">
+
+
+
+<center><h1>About the method</font></h1></center>
+
+<h2><font color="blue">Ligand Layout</font></h2>
+
+In the first step, the ligand is split into structural elements: 
+<ul>
+<li><b>Rings</b>: the smallest of smallest rings </li>
+<li><b>Chains</b>: containing at least 3 non-terminal atoms (C, N, O, S)</li>
+<li><b>Isolated atoms</b></li>
+<li><b>Terminal atoms</b></li>
+</ul>
+
+Once the ligand has been partitioned, a set of rules is applied for each structural element in order to obtain an aesthetic diagram, i.e. ideal bond lengths and angles. We keep the initial orientation from 3D coordinates for each element. If any conflicts occur, we try to resolve them by rotating the bonds. 
+
+<h2><font color="blue">Close Residues</font></h2>
+
+Close residues are residues which have at least one heavy atom approaching within a cut-off distance to the ligand. 
+
+<h2><font color="blue">Hydrogen Bonds</font></h2>
+
+The hydrogen bond donor and the hydrogen bond acceptor atoms are identified in the ligand. Then, donor and acceptor atoms in residues approaching within a cut-off distance to the ligand atoms are identified. For each pair of donor (D)/acceptor (A) atoms, a hydrogen bond is created if an angle (D,A,aa) less than 90 degrees exists (with aa, an acceptor's neighbour atom). 
+
+<h2><font color="blue">Water-mediated hydrogen bonds</font></h2>
+
+The hydrogen bond donor and the hydrogen bond acceptor atoms are identified in the ligand. Next, water molecules approaching within 3.3&Aring; to the ligand atoms are identified. Then all the paths between a ligand atom and a residue atom containing between 1 and 4 water molecules are calculated. 
+
+<h2><font color="blue">Layout of interactions</font></h2>
+
+The same method is used for all interaction types. The element is randomly placed on the circle with a radius of the real distance. A score, depending on the numbers of bond crossings and close atoms, is calculated for each position obtained by rotating the element through 5 degrees each time. The position corresponding to the best score is kept. We begin by placing the hydrogen bonds, then the close residues and finally, the water-mediated hydrogen bonds.
+
+</div>
+
+</body>
+</html>
